@@ -84,6 +84,12 @@ select {
   --fontColor-link: #41515a;
   --fontColor-subtitle: #b4a69a;
   --fontColor-title: #b4a69a;
+  --color-one: #bcc5ce;
+  --color-two: #c6bcce;
+  --color-three: #becebc;
+  --color-four: #cec1bc;
+  --color-five: #aaaaaa;
+  --color-six: #7b7a84;
   --color-main: #2e5063;
   --color-white: #fff;
   --color-bgForm: #ececec;
@@ -137,6 +143,11 @@ div.grid {
   -ms-grid-columns: 1fr 1fr;
       grid-template-columns: 1fr 1fr;
   gap: 50px;
+}
+
+p.small {
+  font-size: 14px;
+  max-width: 450px;
 }
 
 header nav a.contact-btn {
@@ -311,6 +322,10 @@ section.hero .hero-inner .hero-image {
   z-index: -1;
 }
 
+section.hero .hero-inner .hero-image .hero-image-container {
+  max-width: 850px;
+}
+
 section.hero .hero-inner .hero-image .bg-dots {
   position: absolute;
   bottom: -75px;
@@ -409,6 +424,11 @@ section.about .grid .about-content p:nth-child(3) {
   padding-top: 100px;
 }
 
+.about-inner .about-image-container {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
 .about-inner .logo {
   max-width: 775px;
   margin: 0 auto;
@@ -447,6 +467,58 @@ section.about .grid .about-content p:nth-child(3) {
 }
 
 /* Service Styles */
+section.services .services-content .grid h3 {
+  font-size: 20px;
+  color: var(--color-main);
+  margin-top: 24px;
+  margin-bottom: 24px;
+}
+
+section.services .services-content .grid .sq-icon {
+  height: 80px;
+  width: 80px;
+  background-color: grey;
+  border-radius: 10px;
+}
+
+section.services .services-content .grid .one {
+  background-color: var(--color-one);
+  display: -ms-grid;
+  display: grid;
+  place-items: center;
+}
+
+section.services .services-content .grid .one img {
+  max-width: 50px;
+}
+
+section.services .services-content .grid .two {
+  background-color: var(--color-two);
+}
+
+section.services .services-content .grid .three {
+  background-color: var(--color-three);
+}
+
+section.services .services-content .grid .four {
+  background-color: var(--color-four);
+}
+
+section.services .services-content .grid .five {
+  background-color: var(--color-five);
+}
+
+section.services .services-content .grid .six {
+  background-color: var(--color-six);
+  display: -ms-grid;
+  display: grid;
+  place-items: center;
+}
+
+section.services .services-content .grid .six img {
+  max-width: 50px;
+}
+
 section.contact {
   margin-top: 130px;
   margin-bottom: 100px;

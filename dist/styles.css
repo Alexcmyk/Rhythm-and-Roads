@@ -494,18 +494,46 @@ section.services .services-content .grid .one img {
 
 section.services .services-content .grid .two {
   background-color: var(--color-two);
+  display: -ms-grid;
+  display: grid;
+  place-items: center;
+}
+
+section.services .services-content .grid .two img {
+  max-width: 50px;
 }
 
 section.services .services-content .grid .three {
   background-color: var(--color-three);
+  display: -ms-grid;
+  display: grid;
+  place-items: center;
+}
+
+section.services .services-content .grid .three img {
+  max-width: 50px;
 }
 
 section.services .services-content .grid .four {
   background-color: var(--color-four);
+  display: -ms-grid;
+  display: grid;
+  place-items: center;
+}
+
+section.services .services-content .grid .four img {
+  max-width: 50px;
 }
 
 section.services .services-content .grid .five {
   background-color: var(--color-five);
+  display: -ms-grid;
+  display: grid;
+  place-items: center;
+}
+
+section.services .services-content .grid .five img {
+  max-width: 50px;
 }
 
 section.services .services-content .grid .six {
@@ -517,6 +545,27 @@ section.services .services-content .grid .six {
 
 section.services .services-content .grid .six img {
   max-width: 50px;
+}
+
+/* Playlists styles */
+.playlists-inner {
+  max-width: 100%;
+  margin: 50px auto 100px auto;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (minmax(250px, 1fr))[auto-fit];
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  background-color: var(--color-bgForm);
+  border-radius: 25px;
+  padding: 25px;
+}
+
+.playlists-inner iframe {
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 50px;
+  max-width: 250px;
+  height: 275px;
 }
 
 section.contact {

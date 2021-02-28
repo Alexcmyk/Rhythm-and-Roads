@@ -474,14 +474,14 @@ section.about .grid .about-content p:nth-child(3) {
 }
 
 .work .work-inner .work-kingpin {
-  background-image: url(../../dist/images/work-kingpin.png);
+  background-image: url(../dist/images/work-kingpin.png);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
 }
 
 .work .work-inner .work-gilette {
-  background-image: url(../../dist/images/work-gilette.png);
+  background-image: url(../dist/images/work-gilette.png);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;

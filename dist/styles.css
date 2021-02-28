@@ -91,8 +91,10 @@ select {
   --color-five: #aaaaaa;
   --color-six: #7b7a84;
   --color-main: #2e5063;
+  --color-secondary: #b4a69a;
   --color-white: #fff;
   --color-bgForm: #ececec;
+  --color-workOverlay: rgba(34, 52, 63, 0.83);
   --bodyFont: "Inter", sans-serif;
   --headingFont: "Epilogue", sans-serif;
 }
@@ -181,6 +183,24 @@ header nav a.contact-btn:hover {
   border: none;
 }
 
+.button-secondary {
+  display: inline-block;
+  color: var(--color-white);
+  background-color: var(--color-secondary);
+  padding: 15px 20px;
+  border-radius: 5px;
+  position: relative;
+  -webkit-transition: -webkit-transform 0.3s ease;
+  transition: -webkit-transform 0.3s ease;
+  transition: transform 0.3s ease;
+  transition: transform 0.3s ease, -webkit-transform 0.3s ease;
+  -webkit-backface-visibility: hidden;
+          backface-visibility: hidden;
+  border: none;
+  -webkit-box-shadow: 0px 5px 3px rgba(0, 0, 0, 0.15);
+          box-shadow: 0px 5px 3px rgba(0, 0, 0, 0.15);
+}
+
 .button::after {
   content: "";
   position: absolute;
@@ -222,6 +242,11 @@ header nav a.contact-btn:hover {
 }
 
 .button:hover .material-icons {
+  -webkit-transform: translateX(6px);
+          transform: translateX(6px);
+}
+
+.button-secondary:hover .material-icons {
   -webkit-transform: translateX(6px);
           transform: translateX(6px);
 }
@@ -416,6 +441,56 @@ section.about .grid .about-content p:nth-child(3) {
 }
 
 /* Work Styles */
+.work .work-inner .work-item {
+  margin-bottom: 20px;
+  padding: 150px 90px;
+  border-radius: 10px;
+  position: relative;
+}
+
+.work .work-inner .work-item .work-content {
+  position: relative;
+  z-index: 2;
+}
+
+.work .work-inner .work-item .work-content img {
+  max-width: 500px;
+  margin-bottom: 50px;
+}
+
+.work .work-inner .work-item .work-content a {
+  color: #fff;
+}
+
+.work .work-inner .work-item .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: var(--color-workOverlay);
+  border-radius: 10px;
+  z-index: 1;
+}
+
+.work .work-inner .work-kingpin {
+  background-image: url(../../dist/images/work-kingpin.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.work .work-inner .work-gilette {
+  background-image: url(../../dist/images/work-gilette.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.services {
+  margin-bottom: 100px;
+}
+
 /* About Styles */
 .about-inner {
   text-align: center;

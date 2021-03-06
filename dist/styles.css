@@ -981,7 +981,8 @@ section.contact .form-container h3 {
 }
 
 section.contact .form-container label {
-  font-size: 14px;
+  font-size: 15px;
+  margin-bottom: 5px;
   color: var(--fontColor-body);
   display: block;
 }

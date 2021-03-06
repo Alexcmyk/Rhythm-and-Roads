@@ -109,18 +109,28 @@
         </div>
         <div class="form-container">
           <h3>What's your name?*</h3>
-          <label for="firstName" id="firstName">Last Name</label>
-          <input type="text" required placeholder="John" />
-          <label for="lastName" id="lastName">First Name</label>
-          <input type="text" required placeholder="Smith" />
-          <h3>Email Address?*</h3>
-          <label for="email" id="email">Email</label>
-          <input type="email" required placeholder="johnsmith@email.com" />
-          <h3>Send a message.</h3>
-          <input type="textarea" />
+          <div class="user-name">
+            <div>
+              <label for="firstName" id="firstName">First Name</label>
+              <input type="text" required placeholder="John" />
+            </div>
+            <div>
+              <label for="lastName" id="lastName">Last Name</label>
+              <input type="text" required placeholder="Smith" />
+            </div>
+          </div>
+          <div class="email">
+            <h3>Email Address?*</h3>
+            <label for="email" id="email">Email</label>
+            <input type="email" required placeholder="johnsmith@email.com" />
+          </div>
+          <div class="message">
+            <h3>Send a message.</h3>
+            <input type="textarea" />
+          </div>
           <button class="button">
-            Learn More
-            <i class="material-icons">arrow_right_alt</i>
+            Send Message
+            <i class="material-icons">mail_outline</i>
           </button>
         </div>
       </section>

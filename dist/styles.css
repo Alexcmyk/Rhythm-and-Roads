@@ -502,12 +502,6 @@ section.services .grid .services-content p {
   margin-bottom: 35px;
 }
 
-@media (max-width: 1100px) {
-  section.services .grid .services-content p {
-    max-width: 80%;
-  }
-}
-
 section.work {
   margin-top: 130px;
 }

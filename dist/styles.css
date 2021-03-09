@@ -690,21 +690,21 @@ section.about .grid .about-content p:nth-child(3) {
 }
 
 .work .work-inner .work-kingpin {
-  background-image: url(../dist/images/OperationKingpinWebsitePhoto.jpg);
+  background-image: url(../dist/images/OperationKingpinWebsitePhoto-min.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
 }
 
 .work .work-inner .work-gilette {
-  background-image: url(../dist/images/work-gilette.png);
+  background-image: url(../dist/images/work-gilette-min.png);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
 }
 
 .work .work-inner .work-job {
-  background-image: url(../dist/images/TheJobWebsitePhoto.PNG);
+  background-image: url(../dist/images/TheJobWebsitePhoto-min.PNG);
   background-repeat: no-repeat;
   background-position-x: center;
   background-position-y: 20%;

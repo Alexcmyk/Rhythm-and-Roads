@@ -667,15 +667,11 @@ section.about .grid .about-content p:nth-child(3) {
 
 .work .work-inner .work-item .work-content img {
   max-width: 90%;
-  margin-bottom: 50px;
 }
 
-.work .work-inner .work-item .work-content p {
+.work .work-inner .work-item .work-content .button-secondary {
   color: var(--color-white);
-}
-
-.work .work-inner .work-item .work-content a {
-  color: var(--color-white);
+  margin-top: 60px;
 }
 
 .work .work-inner .work-item .overlay {
@@ -696,6 +692,10 @@ section.about .grid .about-content p:nth-child(3) {
   background-size: cover;
 }
 
+.work .work-inner .work-kingpin .work-content .kingpin-logo {
+  min-width: 260px;
+}
+
 .work .work-inner .work-gilette {
   background-image: url(../dist/images/work-gilette-min.png);
   background-repeat: no-repeat;
@@ -709,6 +709,10 @@ section.about .grid .about-content p:nth-child(3) {
   background-position-x: center;
   background-position-y: 20%;
   background-size: 140%;
+}
+
+.work .work-inner .work-job .work-content .job-logo {
+  margin-bottom: 15px;
 }
 
 .imdb {
@@ -811,7 +815,7 @@ section.about .grid .about-content p:nth-child(3) {
 }
 
 .project-inner .project-content .link-to-site a {
-  border-bottom: 1px solid transparent;
+  border-bottom: 1px solid rgba(0, 0, 0, 0);
   -webkit-transition: all 300ms ease;
   transition: all 300ms ease;
 }

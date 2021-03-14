@@ -693,7 +693,7 @@ section.about .grid .about-content p:nth-child(3) {
 }
 
 .work .work-inner .work-kingpin .work-content .kingpin-logo {
-  min-width: 260px;
+  min-width: 265px;
 }
 
 .work .work-inner .work-gilette {
@@ -712,7 +712,8 @@ section.about .grid .about-content p:nth-child(3) {
 }
 
 .work .work-inner .work-job .work-content .job-logo {
-  margin-bottom: 15px;
+  min-width: 190px;
+  margin-right: 75px;
 }
 
 .imdb {
